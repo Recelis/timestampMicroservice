@@ -1,0 +1,16 @@
+{
+  "name": "time_microservice",
+  "version": "1.0.0",
+  "description": "An API that responds with a JSON of time. FCC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w index.js index.js"
+  },
+  "author": "Jacky Lui",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.8"
+  }
+}
